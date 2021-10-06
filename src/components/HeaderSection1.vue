@@ -24,6 +24,9 @@ export default {
      .header-section-1{
         background-color: lightgray;
     }
+    p{
+        margin: 0;
+    }
     .bottone{
         color: white;
         background-color: $ccThunderbird;
