@@ -21,6 +21,7 @@ export default {
 <style lang="scss">
 @import "style/generali.scss";
 @import "style/variabili.scss";
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
