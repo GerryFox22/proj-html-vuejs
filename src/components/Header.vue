@@ -1,15 +1,23 @@
 <template>
-  <div class="head">
-      
+  <div id="Header" class="fluid-container">
+    <HeaderSection1 />
+    <HeaderSection2 />
   </div>
 </template>
 
 <script>
-export default {
+import HeaderSection1 from '../components/HeaderSection1.vue';
+import HeaderSection2 from '../components/HeaderSection2.vue';
 
+export default {
+    name :"Header",
+    components: {
+        HeaderSection1,
+        HeaderSection2,
+  },
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
