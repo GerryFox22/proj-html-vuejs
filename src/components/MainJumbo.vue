@@ -1,10 +1,10 @@
 <template>
   <div class="jumbo d-flex">
       <div class="col-6 conternitore-sinistro">
-          <img class="img-1" src="../assets/images/artist-hero-image-02-232x300.jpg" alt="">
-          <img class="img-2" src="../assets/images/artist-hero-image-01.jpg" alt="">
-          <img class="img-3" src="../assets/images/artist-hero-image-03-204x300.png" alt="">
-          <img class="img-4" src="../assets/images/artist-shape-03.png" alt="">
+          <img class="img-1" src="../assets/images/artist-hero-image-02-232x300.jpg" alt="jumbo img 1">
+          <img class="img-2" src="../assets/images/artist-hero-image-01.jpg" alt="jumbo img 2">
+          <img class="img-3" src="../assets/images/artist-hero-image-03-204x300.png" alt="jumbo img 3">
+          <img class="img-4" src="../assets/images/artist-shape-03.png" alt="jumbo img 4">
       </div>
       <div class="testo text-center">
           <h1>Hello, Im Martin</h1>
@@ -14,9 +14,9 @@
           <button class="bottone">Get started today</button>
       </div>
       <div class="col-6 contenitore-destro">
-          <img class="img-1" src="../assets/images/artist-hero-image-04-235x300.jpg" alt="">
-          <img class="img-2" src="../assets/images/artist-shape-05-300x198.png" alt="">
-          <img class="img-3" src="../assets/images/artist-shape-04-127x300.png" alt="">
+          <img class="img-1" src="../assets/images/artist-hero-image-04-235x300.jpg" alt="jumbo img 1">
+          <img class="img-2" src="../assets/images/artist-shape-05-300x198.png" alt="jumbo img 2">
+          <img class="img-3" src="../assets/images/artist-shape-04-127x300.png" alt="jumbo img 3">
       </div>
   </div>
 </template>
@@ -24,7 +24,7 @@
 <script>
 
 export default {
-
+    name :"MainJumbo",
 }
 </script>
 
