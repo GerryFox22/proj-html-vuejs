@@ -1,5 +1,5 @@
 <template>
-  <div id="main-section-2">
+  <div id="main-section-2" class="mb-5">
       <img class="img-1" src="../assets/images/artist-shape-01.png" alt="img-1">
       <img class="img-2" src="../assets/images/maxcoach-shape-13.png" alt="img-1">
     <div class="artist-section-container container align-items-baseline">
