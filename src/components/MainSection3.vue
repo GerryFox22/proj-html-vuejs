@@ -1,9 +1,9 @@
 <template>
-  <div id="main-section-3" class="mb-5">
+  <div id="main-section-3">
      <div class="container">
          <div class="row align-items-end">
              <div class="col-6 text-center">
-                 <img class="mb-3" src="../assets/images/artist-quote-icon.png" alt="">
+                 <img class="mb-3" src="../assets/images/artist-quote-icon.png" alt="immagine virgolette">
                  <h1 class="fw-bold">I coach and mentor <br>
                     visual artists, like <br>
                     you,to Create Like <br>
@@ -39,7 +39,9 @@ export default {
 
 <style lang="scss" scoped>
 @import "../style/variabili.scss";
-
+#main-section-3 {
+    margin-bottom: 150px;
+}
 h2 {
     font-family: 'Bonheur Royale';
     color: $ccMalibu;
