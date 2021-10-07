@@ -7,6 +7,7 @@
     <MainSection5 />
     <MainSection6 />
     <MainSection7 />
+    <MainSection8 />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import MainSection4 from '../components/MainSection4.vue';
 import MainSection5 from '../components/MainSection5.vue';
 import MainSection6 from '../components/MainSection6.vue';
 import MainSection7 from '../components/MainSection7.vue';
+import MainSection8 from '../components/MainSection8.vue';
 export default {
   name :"Main",
   components : {
@@ -28,6 +30,7 @@ export default {
     MainSection5,
     MainSection6,
     MainSection7,
+    MainSection8
   }
 }
 </script>
